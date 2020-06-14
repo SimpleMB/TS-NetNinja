@@ -8,7 +8,7 @@ export default class Payment implements HasFormater {
   ) {}
 
   format(): string {
-    const text = `${this.recipient} owed ${this.amount} for ${this.description}`;
+    const text = `${this.recipient} owed $${this.amount} for ${this.description}`;
     console.log(text);
     return text;
   }

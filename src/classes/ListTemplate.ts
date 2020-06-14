@@ -1,4 +1,4 @@
-import HasFormater from '../interfaces/HasFormater.js';
+import HasFormater from '../interfaces/HasFormater';
 
 export default class ListTemplate {
   private listEl: HTMLUListElement;
